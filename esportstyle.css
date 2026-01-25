@@ -1,0 +1,206 @@
+body {
+  background-image: url(esprothatter.png);
+  justify-content: center;
+  background-color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+.cim {
+  background-color: yellow;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 20px;
+}
+body.dark
+{
+  background-color: black;
+}
+body.light
+{
+  background-color: white;
+  color: black;
+}
+
+.yap {
+  width: 520px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  border-color: #45631e;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  background-color: rgb(178, 218, 126, 0.7)
+}
+.yap:hover {
+  border-color: #658e2e;
+  -webkit-box-shadow: 0px 0px 105px 45px rgba(25, 71, 23, 0.9);
+  -moz-box-shadow: 0px 0px 105px 45px rgba(25, 71, 23, 0.9);
+  box-shadow: 0px 0px 105px 45px rgba(25, 71, 23, 0.9);
+  background-color: #567929;
+}
+.szimplayap
+{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding-top: 20px;
+}
+.szimplayap:hover
+{
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: #567929;
+}
+.gombok {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+.gombok:hover {
+  color: yellow;
+  background-color: crimson;
+}
+.mufajok
+{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+summary::marker{
+  content: "";
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: repeating-linear-gradient(#6b6b2f, #0d1f0d);
+}
+
+
+.minta {
+    display: grid;
+    gap: 40px; 
+    grid-template-columns: repeat(3, 360px);
+    grid-auto-rows: 300px;                         
+    padding: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card {
+  font-family: 'Courier New', Courier, monospace;
+    background: #6fd06f;
+    border-radius: 16px;
+    padding: 20px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.35s cubic-bezier(.4,0,.2,1);
+}
+.card p {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    margin-top: 10px;
+}
+
+
+.card:hover {
+    height: 220px;
+    transform: scale(1.35);
+    z-index: 10;
+    align-items: flex-start;
+}
+
+
+.card:hover p {
+    opacity: 1;
+}
+
+
+.card-felso {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+
+.card-info span {
+    display: block;
+    font-size: 12px;
+}
+
+
+.card-nagy {
+    margin-top: 20px;
+    padding: 15px;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+
+
+.card:hover .card-nagy {
+    opacity: 1;
+}
+
+.card-info span,
+.card-also {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+}
+.card:hover .card-info span,
+.card:hover .card-nagy {
+    opacity: 1;
+    pointer-events: auto;
+}
+.card:hover .card-cucc {
+    opacity: 1;
+    pointer-events: auto;
+}
+.card:hover .card-cim {
+    opacity: 0;
+}
+.card-cim {
+    font-size: 48px;
+    font-weight: bold;
+    transition: opacity 0.2s ease;
+}
+.card-cucc {
+    opacity: 0;
+    pointer-events: none;
+    width: 100%;
+    transition: opacity 0.25s ease;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+}
