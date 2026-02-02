@@ -1,6 +1,9 @@
-body {
+body,
+.dark,
+.light,
+.szimplayaplight,
+.szimplayapdark {
   justify-content: center;
-  background-color: black;
   transition: background-color 0.3s, color 0.3s;
 }
 .cim {
@@ -15,10 +18,10 @@ body {
   vertical-align: middle;
   letter-spacing: 20px;
 }
-body.dark {
+.dark {
   background-color: black;
 }
-body.light {
+.light {
   background-color: white;
   color: black;
 }
@@ -58,16 +61,28 @@ body.light {
   background-color: #567929;
 }
 .szimplayap {
-  color: white;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
   padding-top: 20px;
-  background-color: black;
 }
-.szimplayap:hover {
+.szimplayaplight {
+  color: #fff;
+  background-color: #000;
+}
+.szimplayaplight:hover {
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
     0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+.szimplayapdark {
+  color: #000;
+  background-color: #fff;
+}
+.szimplayapdark:hover {
+  color: #000;
+  text-shadow: 0 0 7px lightgrey, 0 0 10px lightgrey, 0 0 21px lightgrey,
+    0 0 42px lightgrey, 0 0 82px lightgrey, 0 0 92px lightgrey,
+    0 0 102px lightgrey, 0 0 151px lightgrey;
 }
 #kisyap {
   background-color: black;
@@ -137,7 +152,7 @@ body.light {
   display: block;
   font-size: 12px;
 }
-.card-info img{
+.card-info img {
   padding-top: 30px;
   width: 100px;
   height: 90px;
@@ -222,8 +237,7 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-figcaption{
+figcaption {
   font-size: smaller;
   font-weight: lighter;
 }
-
