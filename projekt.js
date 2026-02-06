@@ -17,3 +17,9 @@ function toggleMode() {
     gomb.textContent = "Világos mód";
   }
 }
+/*Az egészet ctrl + c ctrl + v, mindeggyik divnek*/
+var cardid = document.getElementById("card");
+cradid.onclick() = function(){
+    this.classList.toggle("")
+}
+
