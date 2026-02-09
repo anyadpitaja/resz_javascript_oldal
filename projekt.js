@@ -17,9 +17,23 @@ function toggleMode() {
     gomb.textContent = "Világos mód";
   }
 }
-/*Az egészet ctrl + c ctrl + v, mindeggyik divnek*/
-var cardid = document.getElementById("card");
-cradid.onclick() = function(){
-    this.classList.toggle("")
+
+function bigCard(bc) {
+  // contains zárójelébe rakd be azt a class-t ami a kártyának alapból meg van adva pl.( conatins(card) )
+  if (this.classList.contains()) {
+    // a toggle zárójelébe rakd be azt a class-t ami a kártyának akarsz adni pl.( toggle(masikcard) )
+    this.classList.toggle();
+    // aztán a kártyának az alap class-ját pl.( toggle(card) )
+    this.classList.toggle();
+  } else {
+    // a toggle zárójelébe rakd be a kártyának az alap class-ját pl.( toggle(card) )
+    this.classList.toggle();
+    // aztán a kártyának azt a class-ját amit előző if-be megadtál pl.( toggle(masikcard) )
+    this.classList.toggle();
+  }
 }
 
+var cardelements = document.getElementsByClassName("carde");
+for (var i = 0; i < cardelements.length; i++) {
+  cardelements[i].addEventListener("click", bigCard);
+}
