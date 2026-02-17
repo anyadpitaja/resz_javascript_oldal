@@ -273,6 +273,7 @@ figcaption {
   background-color: #45631e;
   margin: 20px;
   color: #fff;
+  font-family: 'Courier New', Courier, monospace;
 }
 .albumcover {
   width: 200px;
@@ -297,6 +298,7 @@ figcaption {
   color: #fff;
   margin: 20px;
   justify-content: space-between;
+  font-family: 'Courier New', Courier, monospace;
 }
 .kepszoveg {
   width: 200px;
