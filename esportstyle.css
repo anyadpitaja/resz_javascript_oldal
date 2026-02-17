@@ -296,10 +296,18 @@ figcaption {
   background-color: #631e1e;
   color: #fff;
   margin: 20px;
+  justify-content: space-between;
 }
 .kepszoveg {
   width: 200px;
 }
 .nagyszoveg {
   width: 300px;
+}
+
+.abracadabra{
+  display: none;
+}
+.balszoveg>ul, .yap>ul{
+  list-style: none;
 }

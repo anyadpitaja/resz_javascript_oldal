@@ -29,12 +29,15 @@ function toggleMode() {
 }
 
 function bigCard(bc) {
-  console.log(this.children);
+  console.log(this.children[0].children);
   // contains zárójelébe rakd be azt a class-t ami a kártyának alapból meg van adva pl.( conatins(card) )
   if (this.classList.contains("albumcard")) {
     // a toggle zárójelébe rakd be azt a class-t ami a kártyának akarsz adni pl.( toggle(masikcard) )
     this.classList.toggle("albumcardnagy");
     this.children[0].classList.toggle("kisalbumcover");
+    this.children[1].classList.toggle("abracadabra");
+    this.children[1].children[1].classList.toggle("abracadabra");
+    this.children[0].children[2].classList.toggle("abracadabra");
 
     // aztán a kártyának az alap class-ját pl.( toggle(card) )
     this.classList.toggle("albumcard");
@@ -43,10 +46,14 @@ function bigCard(bc) {
     // a toggle zárójelébe rakd be a kártyának az alap class-ját pl.( toggle(card) )
     this.classList.toggle("albumcard");
     this.children[0].classList.toggle("albumcover");
+    
 
     // aztán a kártyának azt a class-ját amit előző if-be megadtál pl.( toggle(masikcard) )
     this.classList.toggle("albumcardnagy");
     this.children[0].classList.toggle("kisalbumcover");
+    this.children[1].classList.toggle("abracadabra");
+    this.children[1].children[1].classList.toggle("abracadabra");
+    this.children[0].children[2].classList.toggle("abracadabra");
   }
 }
 
