@@ -69,7 +69,7 @@ if (mysqli_num_rows($result) > 0) {
                 </div>
             </div>
             <div class="nagyszoveg abracadabra">
-                <span>apad</span>
+                <span></span>
                 <div class="linkszoveg abracadabra">
                     <a href='<?php echo $links[9]; ?>'>Link</a>
                 </div>
@@ -89,12 +89,12 @@ if (mysqli_num_rows($result) > 0) {
                 </div>
             </div>
             <div class="nagyszoveg abracadabra">
-                <span>apad</span>
+                <span></span>
                 <div class="linkszoveg abracadabra">
                     <a href='<?php echo $links[15]; ?>'>Link</a>
                 </div>
             </div>
-        </div>*/vege/*
+        </div>
 
         <div class="albumcard">
             <div class="kisalbumcover">
@@ -109,12 +109,12 @@ if (mysqli_num_rows($result) > 0) {
                 </div>
             </div>
             <div class="nagyszoveg abracadabra">
-                <span>apad</span>
+                <span></span>
                 <div class="linkszoveg abracadabra">
                     <a href='<?php echo $links[3]; ?>'>Link</a>
                 </div>
             </div>
-        </div>*/vege/*
+        </div>
 
         <div class="albumcard">
             <div class="kisalbumcover">
@@ -129,12 +129,12 @@ if (mysqli_num_rows($result) > 0) {
                 </div>
             </div>
             <div class="nagyszoveg abracadabra">
-                <span>apad</span>
+                <span></span>
                 <div class="linkszoveg abracadabra">
                     <a href='<?php echo $links[10]; ?>'>Link</a>
                 </div>
             </div>
-        </div>*/vege/*
+        </div>
 
         <div class="albumcard">
             <div class="kisalbumcover">
@@ -149,12 +149,12 @@ if (mysqli_num_rows($result) > 0) {
                 </div>
             </div>
             <div class="nagyszoveg abracadabra">
-                <span>apad</span>
+                <span></span>
                 <div class="linkszoveg abracadabra">
                     <a href='<?php echo $links[11]; ?>'>Link</a>
                 </div>
             </div>
-        </div>*/vege/*
+        </div>
 
         <div class="albumcard">
             <div class="kisalbumcover">
@@ -169,14 +169,18 @@ if (mysqli_num_rows($result) > 0) {
                 </div>
             </div>
             <div class="nagyszoveg abracadabra">
-                <span>apad</span>
+                <span></span>
                 <div class="linkszoveg abracadabra">
                     <a href='<?php echo $links[5]; ?>'>Link</a>
                 </div>
             </div>
-        </div>*/vege/*
+        </div>
     </div>
-
+    <div class="navibar">
+        <a href="furcsazenek.html" class="navibargombok">Főoldal</a>
+        <a href="mufajok.html" class="navibargombok">Műfajok</a>
+        <a href="albumgallery.php" class="navibargombok">Album galléria</a>
+    </div>
     <script src="projekt.js"></script>
 </body>
 
