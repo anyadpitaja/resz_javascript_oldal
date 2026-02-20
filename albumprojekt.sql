@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2026. Feb 17. 09:34
--- Kiszolgáló verziója: 10.4.32-MariaDB
--- PHP verzió: 8.2.12
+-- Létrehozás ideje: 2026. Feb 20. 13:45
+-- Kiszolgáló verziója: 10.4.28-MariaDB
+-- PHP verzió: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Adatbázis: `albumprojekt`
 --
+CREATE DATABASE IF NOT EXISTS `albumprojekt` DEFAULT CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+USE `albumprojekt`;
 
 -- --------------------------------------------------------
 
